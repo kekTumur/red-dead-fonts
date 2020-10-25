@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Redemption';
+	src: url('fonts/Redemption.eot');
+	src: local('☺'), url('fonts/Redemption.woff') format('woff'), url('fonts/Redemption.ttf') format('truetype'), url('fonts/Redemption.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RDRLino';
+	src: url('fonts/RDRLino-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+}
+
+.list {
+    background-color: #fff;
+    width: 350px;
+}
+
+.list h2 {
+    background-color: #bb293c;
+    font-family: Redemption;
+    letter-spacing: 3px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.list ul {
+    padding: 20px;
+}
+
+.list ul li {
+    font-family: RDRLino;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.list ul li:last-child {
+    border-bottom: none;
+}
+
+
